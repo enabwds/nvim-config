@@ -10,7 +10,7 @@ set showmatch
 set relativenumber
 
 set expandtab
-set tabstop=4
+set tabstop=2
 set shiftwidth=0
 set softtabstop=0
 set autoindent
