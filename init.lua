@@ -9,6 +9,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     lazypath,
   })
 end
+vim.o.guicursor = "n-v-c:block-Cursor/lCursor,i:blinkon1"
 vim.g.mapleader = " "
 vim.opt.rtp:prepend(lazypath)
 vim.opt.background = "dark" -- set this to dark or light
